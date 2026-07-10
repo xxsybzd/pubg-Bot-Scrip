@@ -1,0 +1,23 @@
+# 过滤 Python 自动生成的缓存文件（数量极多）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 过滤本地虚拟环境（如果有的话，通常有几千个小文件）
+venv/
+.venv/
+env/
+ENV/
+
+# 过滤打包生成的临时文件（从你之前的截图看你有 dist 目录，这个极重）
+build/
+dist/
+*.egg-info/
+
+# 过滤 IDE（如 PyCharm、VS Code）的本地配置文件
+.idea/
+.vscode/
+
+# 过滤本地日志
+*.log
